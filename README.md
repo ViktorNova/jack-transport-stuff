@@ -1,6 +1,18 @@
 # jack-transport-stuff
-Random collection of stuff to query and control JACK transport &amp; song position
+Random collection of stuff to query and control JACK transport &amp; song position.
+
+The core functionality bunch of scattered man pages for different apps that come with JACK, or the jack-tools package.
+
+This document was made to simplify the use of this stuff by explaining it all in one place. 
+
+There are also scripts to expose transport controls as commands like ````jack-transport-play````, ````jack-transport-locate````, etc., as JACK does not provide these 
+
+This is useful for scripting your own show control via shell scripts, window manager buttons, smartphone (via sshmote or similar), etc, or even to control/query JACK transport from another language that doesn't have a native JACK transport control library.
+
+
 ______________________________
+TODO: Write micro 1-line scripts to run these commands:
+
 ## Get song position with jack_showtime
 Yep.
 
